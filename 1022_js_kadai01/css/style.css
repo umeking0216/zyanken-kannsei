@@ -1,0 +1,156 @@
+@charset "utf^8";
+
+
+html{
+    font-size: 62.5%;
+}
+
+
+body{
+color: #333333;
+font-family:"Open Sans",'ヒラギノ角ゴ ProN W3', Hiragino Kaku Gothic ProN, "メイリオ", Meiryo, sans-serif;
+font-size: 1.6rem;
+line-height: 2;
+width: 1140px;
+margin: auto;
+
+
+background-color: #fcfcfc;            /* 背景色 */
+background-image: url("back_gazo.jpeg"); /* 画像 */
+background-size: cover;               /* 全画面 */
+background-attachment: fixed;         /* 固定 */
+background-position: center center;   /* 縦横中央 */
+
+}
+
+
+
+.title{
+  max-width: 600px;
+  text-align: center;
+  margin: 20px auto;
+  height: auto;
+  background-color: beige;
+  
+}
+
+.text_center{
+    max-width: 1140px;
+    height: auto;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+
+.aite_item{
+  display: block;
+  justify-content: center;
+  align-items: center;
+  max-width: 180px;
+  max-height: 180px;
+  margin: auto;
+
+}
+
+
+.item_2{
+   display: flex;
+   max-width: 700px;
+   height: auto;
+   padding: auto;
+   margin: auto;
+}
+
+.item{
+    background-color: yellow;
+    font-size: 40px;
+    margin: 10px 30px 10px 30px;
+    width: 200px;
+    text-align: center;
+}
+
+.img_2{
+   display: flex;
+   max-width: 700px;
+   height: auto;
+   justify-content: space-between;
+   margin: 30px auto 30px auto;
+}
+
+.btn_item{
+display: flex;
+   max-width: 1140px;
+   height: auto;
+   padding: auto;
+   margin: 50px 0 50px 0;
+}
+
+
+.img_item{
+    max-width: 100px;
+    height: auto;
+
+}
+
+.iro{
+    background-color: red;
+}
+
+.btn{
+  display: block;
+  margin: 10px auto 10px auto;
+  padding: 21px 0;
+  background-color: #ffd61a;
+  color: #fff;
+  font-size: 1.8rem;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0 4px 0 #7d770545; 
+}
+
+.btn_2{
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    margin: auto;
+}
+
+.box26 {
+    position: relative;
+    width: 180px;
+    height: 180px;
+    margin: auto;
+    padding: 0.5em 1em;
+    border: solid 3px #95ccff;
+    border-radius: 8px;
+}
+.box26 .box-title {
+    position: absolute;
+    display: inline-block;
+    top: -13px;
+    left: 10px;
+    padding: 0 9px;
+    line-height: 1;
+    font-size: 19px;
+    background: #FFF;
+    color: #95ccff;
+    font-weight: bold;
+}
+.box26 p {
+    margin: 0; 
+    padding: 0;
+}
+
+  .btn:hover {
+    transform: translateY(4px);
+    box-shadow: none;
+  }
+   
+
+  .img_item:hover {
+    transform: translateY(4px);
+    box-shadow: none;
+  }
+
+
